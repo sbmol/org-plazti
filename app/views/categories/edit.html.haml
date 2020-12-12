@@ -1,0 +1,11 @@
+.category.edit-page
+  .card
+    .card-body
+
+      %h1 Editar la categoria
+
+      = render 'form'
+
+      = link_to t('common.show'), @category
+      \|
+      = link_to t('common.back'), categories_path
